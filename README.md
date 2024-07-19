@@ -11,3 +11,5 @@ To enter the environment type
 nix develop
 ```
 First run might take some time to download the packages.
+
+If the upstream `algs4.jar` will change then the package will fail to build due to changed hash, which can be set to the actual in `default.nix`.
